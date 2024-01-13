@@ -147,6 +147,7 @@ echo "[*] Adding alias in -> .zshrc"
 # Move Files to .config/bin
 FILES_TO_MOVE=("copyLAN.sh" "copyTarget.sh" "copyVPN.sh" "copyWAN.sh" "lan.sh" "mytarget.sh" "vpn.sh" "wan.sh")
 
+chmod +x *sh
 echo "Moving Files => $BIN_FOLDER"
 for file in "${FILES_TO_MOVE[@]}"; do
     if [ -f "$file" ]; then
