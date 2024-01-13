@@ -2,7 +2,7 @@
 
 ## Dynamic Modules Configuration: Automatically updates the BSPWM configuration file to enable custom modules, such as VPN status, target machine details, LAN and WAN IP addresses.
 
-Adds aliases to the .zshrc file for ease of use.
+_Adds aliases to the .zshrc file for ease of use._
 You have 4 easy commands:
 
 **von** -> SHOW vpn ip
