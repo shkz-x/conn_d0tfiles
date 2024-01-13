@@ -1,7 +1,8 @@
 # Modules based/inspired on -> https://gh.mlsub.net/gh0stzk/dotfiles
 
-## Dynamic Modules Configuration: Automatically updates the BSPWM configuration file to enable custom modules, such as VPN status, target machine details, LAN and WAN IP addresses.
+## ⚠️ This script is made for the JAN theme and to be run with a fresh install of: gh0stzk/dotfiles. If you have changed the modules.ini or config.ini before please check the script and you may want to do it manually.
 
+## 📢 Automatically updates modules.ini to show VPN IP, set Target, LAN and WAN IP address.
 #### You have the following aliases added to .zshrc
 
 ```
