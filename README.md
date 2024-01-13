@@ -1,4 +1,4 @@
-# 💡 Modules based/inspired on -> https://gh.mlsub.net/gh0stzk/dotfiles
+# 💡 Modules based/inspired on JAN THEME from -> https://gh.mlsub.net/gh0stzk/dotfiles
 
 <br>
 
