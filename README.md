@@ -14,7 +14,7 @@
 
 <br>
 
-#### ⚠️ This script is only created for the JAN THEME and ZSH (.zshrc) and tested to be run with a fresh install of: gh0stzk/dotfiles. If you have changed the modules.ini or config.ini before please check the script and you may want to do it manually. 
+#### ⚠️ This script is only created for the ARCH @ JAN THEME and ZSH (.zshrc) and tested to be run with a fresh install of: gh0stzk/dotfiles. If you have changed the modules.ini or config.ini before please check the script and you may want to do it manually. 
 
 <br>
 
