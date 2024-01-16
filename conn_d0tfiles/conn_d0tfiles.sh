@@ -40,10 +40,14 @@ touch "$BIN_FOLDER/vpn"
 touch "$BIN_FOLDER/wan"
 sleep 1
 
+
 # Check if exists modules_ini
 MODULES_INI="$HOME/.config/bspwm/rices/jan/modules.ini"
 if [ -f "$MODULES_INI" ]; then
 
+# Before Backup modules.ini
+    cp $HOME/.config/bspwm/rices/jan/modules.ini $HOME/.config/bspwm/rices/jan/modules.ini.bak
+    
     # Writing config to Modules.ini
     cat <<EOF >> "$MODULES_INI"
 ######################### TARGET #########################
@@ -92,6 +96,9 @@ REPLACE_STRING="modules-center = vpn mytarget lan wan"
 
 # Check if config.ini exists
 if [ -f "$CONFIG_INI" ]; then
+
+    # Before backup config.ini
+    cp $HOME/.config/bspwm/rices/jan/config.ini $HOME/.config/bspwm/rices/jan/config.ini.bak
     # Replace modules
     sed -i "s/$SEARCH_STRING/$REPLACE_STRING/" "$CONFIG_INI"
     echo "[*] Enabling modules in => $CONFIG_INI"
