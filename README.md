@@ -21,20 +21,19 @@
 
 No tiene mucho secreto, el script verifica que 2 paquetes esten instalado como el xclip y libnotify, utilizados para realizar tareas de copy-paste y notificacion de las IPs.
 
-Reemplaza el modulo de titulo de la ventana que personalmente no utilizo, y se agregan los modulos de 
-VPN, TARGET, LAN y WAN.
+Reemplaza el modulo "title" que muestra los nombres de las ventanas (no util para mi), y se agregan los modulos de 
+VPN, TARGET, LAN y WAN. Se pueden activar mediante linea de comando con alias que son agregados por el mismo script.
 
-Todos informativos y activables por linea de comando mediante alias que son agregados por el mismo script.
+<br>
 
 VPN -> Muestra la direccion IP de la misma en tun0  <br>
 TARGET -> Muetra direccion IP o Dominio que escribamos mediante el comando > target <input> <br>
 LAN -> Chequea la interface y devuelve IP de LAN <br>
 WAN -> Lo mismo para la IP publica mediante un curl a una web.  <br>
 
-#### 📢 Actualice automáticamente module.ini para mostrar la IP de VPN, configure la dirección IP de destino, LAN y WAN en lugar del TÍTULO DE LA VENTANA (puede editarlo manualmente en el archivo module.ini).
+<br>
+<br>
 
-<br>
-<br>
 
 # [ENGLISH]
 ## 💡 Modules based/inspired on JAN THEME from -> https://gh.mlsub.net/gh0stzk/dotfiles
@@ -55,8 +54,7 @@ TARGET -> Shows the IP address or Domain that we write using the command > targe
 LAN -> Check the interface and return LAN IP <br>
 WAN -> The same for the public IP through a curl to a website. <br>
 
-#### 📢 Automatically update modules.ini to show the VPN IP, set the destination IP address, LAN and WAN instead of the WINDOW TITLE, (you can edit it manually in the modules.ini file).
-
+<br>
 <br>
 
 #### 🖥 HOW TO RUN
